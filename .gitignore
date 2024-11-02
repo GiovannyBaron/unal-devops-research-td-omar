@@ -1,0 +1,24 @@
+# Terraform files
+.terraform/
+
+# Local Terraform files
+*.tfvars
+*.tfvars.json
+
+# Sensitive files
+secret.tfvars
+*.pem
+*.key
+*.crt
+
+# IDE and editor files
+*.swp
+*~ 
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
